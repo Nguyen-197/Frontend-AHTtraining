@@ -1,0 +1,19 @@
+.flex(){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tranformer(@scale){
+    transform: @scale;
+    -webkit-transform: @scale;
+    -moz-transform: @scale;
+    -ms-transform: @scale;
+    -o-transform: @scale;
+}
+.transit(@attr, @sec){
+    transition: @attr, @sec;
+    -webkit-transition: @attr, @sec;
+    -moz-transition: @attr, @sec;
+    -ms-tranition:@attr, @sec;
+    -o-transition: @attr, @sec;
+}

@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #000;
+    text-decoration: #000;
+    &:hover{
+        color: #000;
+    }
+}
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.container1{
+    max-width: 1170px;
+    padding: 0 0px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width: 100%;
+    padding: 0 0px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.row1{
+    margin: 0 -15px;
+}
+.col(@width){
+    width: @width;
+    padding: 0 0px;
+    box-sizing: border-box;
+}
